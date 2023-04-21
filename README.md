@@ -21,7 +21,7 @@ Klasa JObrazek:
     
 Klasa Element:
     
-    Odpowiada za rzomieszczenie o odpowiednie przeskalowanie elementów na planszy.
+    Odpowiada za umieszczenie i odpowiednie przeskalowanie elementów na planszy.
     
 Klasa elementyListener:
     
@@ -29,7 +29,7 @@ Klasa elementyListener:
     
     Metoda "sprawdz_pola" służy do sprawdzania stanu gry. Przy pomocy instrukcji warunkowych sprawdza, czy wygrał gracz, czy komputer.
     
-    Metoda "actionPerformed" jest od sterowania przebiegiem gry. Odpowiada za rejetrowanie ruchów gracza oraz ruch przeciwnika.
+    Metoda "actionPerformed" jest od sterowania przebiegiem gry. Odpowiada za rejetrowanie ruchów gracza oraz ruch przeciwnika, który jest losowy.
     Wywołuje funkcję sprawdzającą stan gry i odświeża planszę po skończonej rozgrywce.
     
   
